@@ -42,6 +42,16 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   text-align: center;
+  transition: all 1s ease-out;
+}
+
+nav a:active {
+  background-color: #e6e6e6;
+  font-weight: 400;
+}
+
+nav a:hover {
+  color: #c60f7b;
 }
 
 nav li {
@@ -50,35 +60,11 @@ nav li {
   padding: 14px 20px;
 }
 
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-
-
-.about {
-  flex: 70%;
-  padding: 75px;
-
-}
-
-
-
-.about h1 {
-  font-family: 'Playfair Display', serif;
-  text-transform: uppercase;
-  color: #000000;
-  font-size: 200%;
-  text-align: center;
-}
-
 article {
   clear: both;
   overflow: auto;
-  width: 100%
+  margin: 50px;
+  padding: 50px;
 }
 
 img {
@@ -92,12 +78,22 @@ article h2 {
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   color: #000000;
-  text-align: center;
+  text-align: left;
 }
 
 article a {
   color: #c60f7b;
   text-decoration: none;
+}
+
+article a:hover {
+  color: #000000;
+  font-size: 150%;
+  transition: font-size 2s;
+}
+
+article a:nth-child(odd) {
+  line-height: 2em;
 }
 
 footer a {
