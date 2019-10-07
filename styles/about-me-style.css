@@ -57,27 +57,17 @@ nav li {
   justify-content: space-evenly;
 }
 
+
+
 .about {
-  flex: 30%;
-  padding: 75px;
-
-
-}
-
-.projects {
   flex: 70%;
   padding: 75px;
 
 }
 
 
-.about h3 {
-  font-family: 'Playfair Display', serif;
-  text-transform: uppercase;
-  color: #000000;
-}
 
-.projects h1 {
+.about h1 {
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   color: #000000;
