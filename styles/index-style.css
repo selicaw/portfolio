@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.about {
+  flex: 30%;
+  padding: 75px;
+}
+
+.projects {
+  flex: 70%;
+  padding: 75px;
+}
+
+.about h3 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.projects h1 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 200%;
+  text-align: center;
+}
+
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%
+}
+
+img {
+  float: left;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #e6e6e6;
+}
+
+article h2 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+article a {
+  color: #c60f7b;
+  text-decoration: none;
+}

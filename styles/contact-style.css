@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form h1 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 200%;
+  text-align: center;
+}
+
+fieldset {
+  display: flex;
+  width: 90%;
+  align-content: center;
+}
+
+label {
+  margin: 8px auto;
+  cursor: pointer;
+  padding: 2px;
+  padding-bottom: 1px;
+  text-align: left;
+}
+
+input[type="submit"] {
+  background-color: #c60f7b;
+  color: #ffffff;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  opacity: 0.9;
+  transition: all 1s ease-out;
+}
+
+input:hover[type="submit"] {
+  background: #000000;
+}
